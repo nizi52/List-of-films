@@ -54,7 +54,7 @@ const App = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>🎬 Список фильмов</h1>
+      <h1 className={styles.title}>Список фильмов</h1>
       <MovieForm onAdd={addMovie} />
       <FilterControls filter={filter} onFilterChange={setFilter} />
       <ul className={styles.list}>
